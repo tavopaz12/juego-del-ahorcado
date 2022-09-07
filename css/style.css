@@ -96,6 +96,13 @@ header {
   font-style: italic;
 }
 
+#agregarPalabra #playGame #alert {
+  color: rgb(80, 80, 141);
+  font-weight: bold;
+  text-align: center;
+  font-style: italic;
+}
+
 #starGame .alfabeto {
   display: flex;
   flex-wrap: wrap;
