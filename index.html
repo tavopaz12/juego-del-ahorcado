@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><img src="./images/Vector.png" alt="logo" /></a>
+    </header>
+    <main id="inicioGame">
+      <section id="playGame">
+        <button id="play">Iniciar juego</button>
+        <button id="addWord">Agregar nueva palabra</button>
+      </section>
+    </main>
+    <main id="agregarPalabra">
+      <section id="playGame">
+        <p id="alert"></p>
+        <form action="">
+          <input
+            id="userAddWord"
+            name="userAddWord"
+            type="text"
+            placeholder="Agrega una nueva palabra"
+            />
+          <span id="aviso">* Máximo 10 caracteres</span>
+          <div id="btnGroup">
+            <button id="saveWord">Guardar</button>
+            <button id="cancel">Cancelar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <main id="startGame">
+      <section id="gameAhorcado">
+        <p id="palabraSecreta"></p>
+        <div class="alfabeto">
+          <button>A</button>
+          <button>B</button>
+          <button>C</button>
+          <button>D</button>
+          <button>E</button>
+          <button>F</button>
+          <button>G</button>
+          <button>H</button>
+          <button>I</button>
+          <button>J</button>
+          <button>K</button>
+          <button>L</button>
+          <button>M</button>
+          <button>N</button>
+          <button>Ñ</button>
+          <button>O</button>
+          <button>P</button>
+          <button>Q</button>
+          <button>R</button>
+          <button>S</button>
+          <button>T</button>
+          <button>U</button>
+          <button>V</button>
+          <button>W</button>
+          <button>X</button>
+          <button>Y</button>
+          <button>Z</button>
+        </div>
+        <div id="btnGames">
+          <button id="newGame">Nuevo Juego</button>
+          <button id="exitGame">Salir</button>
+        </div>
+      </section>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

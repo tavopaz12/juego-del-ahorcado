@@ -1,0 +1,143 @@
+body {
+  background-image: url("../images/fondo-blanco-gris-brillante-lineas-onduladas_1017-25101.jpg");
+}
+
+#agregarPalabra {
+  display: none;
+}
+
+#startGame {
+  display: none;
+}
+
+#playGame,
+#startGame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+header {
+  padding: 20px;
+}
+
+#playGame #play {
+  display: block;
+  align-items: center;
+  text-align: center;
+  background-color: darkblue;
+  color: white;
+  padding: 24px;
+  gap: 8px;
+  border: none;
+  border-radius: 24px;
+  width: 317px;
+}
+
+#playGame #addWord {
+  margin-top: 20px;
+  background-color: white;
+  color: darkblue;
+  border: darkblue 1px solid;
+  padding: 24px;
+  gap: 8px;
+  border-radius: 24px;
+  width: 317px;
+}
+
+#agregarPalabra #playGame #userAddWord {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  background-color: white;
+  color: darkblue;
+  padding: 24px;
+  gap: 8px;
+  border: darkblue 1px solid;
+  border-radius: 24px;
+  width: 320px;
+  margin-bottom: 5px;
+}
+
+#agregarPalabra #playGame #btnGroup {
+  margin-top: 20px;
+}
+
+#agregarPalabra #playGame #btnGroup #saveWord {
+  width: 180px;
+  align-items: center;
+  text-align: center;
+  background-color: darkblue;
+  color: white;
+  padding: 15px;
+  gap: 8px;
+  border: none;
+  border-radius: 24px;
+}
+
+#agregarPalabra #playGame #btnGroup #cancel {
+  width: 180px;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  color: darkblue;
+  border: darkblue 1px solid;
+  padding: 15px;
+  gap: 8px;
+  border-radius: 24px;
+}
+
+#agregarPalabra #playGame #aviso {
+  color: rgb(80, 80, 141);
+  font-weight: bold;
+  font-style: italic;
+}
+
+#starGame .alfabeto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#startGame .alfabeto button {
+  font-size: 40px;
+  font-weight: 900;
+  border-style: none;
+  background: 100%;
+  color: #0a3871;
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+}
+
+.alfabeto button:hover {
+  scale: 1.5;
+}
+
+#startGame #gameAhorcado #newGame {
+    margin-top: 100px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    padding: 15px;
+    gap: 8px;
+    border: none;
+    border-radius: 24px;
+    width: 317px;
+}
+
+#startGame #gameAhorcado #exitGame {
+    margin-top: 20px;
+    background-color: white;
+    color: darkblue;
+    border: darkblue 1px solid;
+    padding: 15px;
+    gap: 8px;
+    border-radius: 24px;
+    width: 317px;
+}
